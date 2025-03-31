@@ -1,0 +1,39 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Coffee Cup -->
+    <rect x="50" y="180" width="60" height="70" rx="5" fill="#8B4513"/>
+    <rect x="45" y="170" width="70" height="15" rx="5" fill="#A0522D"/>
+    <path d="M110 190 C130 190, 130 210, 110 210" stroke="#A0522D" stroke-width="5" fill="none"/>
+    
+    <!-- Steam -->
+    <path d="M70 160 Q80 150 90 160" stroke="#CCCCCC" stroke-width="2" stroke-dasharray="2"/>
+    <path d="M80 150 Q90 140 100 150" stroke="#CCCCCC" stroke-width="2" stroke-dasharray="2"/>
+    
+    <!-- Laptop -->
+    <rect x="150" y="150" width="120" height="80" rx="5" fill="#333" stroke="#555" stroke-width="2"/>
+    <rect x="160" y="160" width="100" height="60" rx="2" fill="#0072CE"/>
+    <rect x="150" y="230" width="120" height="10" rx="2" fill="#555"/>
+    
+    <!-- Email on Screen -->
+    <rect x="170" y="170" width="80" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+    <text x="175" y="178" font-family="Arial" font-size="8" fill="#000">Company Email</text>
+    <rect x="170" y="185" width="80" height="25" rx="2" fill="#FFFFFF" opacity="0.6"/>
+    
+    <!-- Wifi Symbol -->
+    <circle cx="270" cy="90" r="40" fill="#4CAF50" opacity="0.2"/>
+    <path d="M250 100 Q270 70, 290 100" stroke="#4CAF50" stroke-width="4" fill="none"/>
+    <path d="M240 110 Q270 60, 300 110" stroke="#4CAF50" stroke-width="4" fill="none"/>
+    <path d="M230 120 Q270 50, 310 120" stroke="#4CAF50" stroke-width="4" fill="none"/>
+    <circle cx="270" cy="120" r="5" fill="#4CAF50"/>
+    
+    <!-- Hacker Silhouette -->
+    <rect x="310" y="130" width="40" height="40" rx="20" fill="#FF5722" opacity="0.5"/>
+    <rect x="320" y="170" width="20" height="30" fill="#FF5722" opacity="0.5"/>
+    
+    <!-- Data Packet - Being Intercepted -->
+    <rect x="240" y="140" width="15" height="10" rx="2" fill="#FFC107"/>
+    <line x1="240" y1="145" x2="310" y2="145" stroke="#FFC107" stroke-width="2" stroke-dasharray="4"/>
+    
+    <!-- Warning Text -->
+    <text x="255" y="240" font-family="Arial" font-size="14" font-weight="bold" fill="#FF5722">UNSECURED</text>
+    <text x="270" y="255" font-family="Arial" font-size="14" font-weight="bold" fill="#FF5722">WIFI</text>
+</svg> 

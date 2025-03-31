@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monitor -->
+  <rect x="15" y="10" width="70" height="50" rx="3" fill="#333" stroke="#555" stroke-width="2"/>
+  <rect x="20" y="15" width="60" height="40" fill="#1E90FF" stroke="#555" stroke-width="1"/>
+  
+  <!-- Stand -->
+  <rect x="45" y="60" width="10" height="10" fill="#555"/>
+  
+  <!-- Base -->
+  <rect x="30" y="70" width="40" height="5" rx="2" fill="#555"/>
+  
+  <!-- Keyboard -->
+  <rect x="25" y="80" width="50" height="10" rx="2" fill="#777"/>
+  <rect x="30" y="82" width="40" height="6" fill="#666"/>
+  
+  <!-- Screen Content -->
+  <rect x="25" y="20" width="20" height="3" fill="#fff"/>
+  <rect x="25" y="25" width="40" height="3" fill="#fff"/>
+  <rect x="25" y="30" width="30" height="3" fill="#fff"/>
+  <rect x="25" y="40" width="35" height="3" fill="#fff"/>
+  <rect x="25" y="45" width="25" height="3" fill="#fff"/>
+</svg> 

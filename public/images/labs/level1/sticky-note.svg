@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="100" y="50" width="200" height="200" rx="5" fill="#FFD700" stroke="#333" stroke-width="2"/>
+    <rect x="130" y="100" width="140" height="100" rx="3" fill="#FFFFFF" opacity="0.7"/>
+    <text x="140" y="130" font-family="Arial" font-size="14" fill="#000000">PASSWORD:</text>
+    <text x="140" y="160" font-family="Arial" font-size="18" fill="#000000" font-weight="bold">Admin123!</text>
+    <path d="M250 50 L270 30 L290 30 L290 50 Z" fill="#FFD700" stroke="#333" stroke-width="2"/>
+</svg> 

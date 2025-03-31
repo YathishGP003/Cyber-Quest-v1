@@ -1,0 +1,31 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Login Screen -->
+    <rect x="120" y="60" width="160" height="180" rx="5" fill="#1E1E1E" stroke="#333" stroke-width="2"/>
+    
+    <!-- Login Form -->
+    <rect x="140" y="80" width="120" height="140" rx="5" fill="#282828"/>
+    <text x="170" y="100" font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF">LOGIN</text>
+    <text x="150" y="125" font-family="Arial" font-size="12" fill="#CCCCCC">Username:</text>
+    <rect x="150" y="130" width="100" height="20" rx="3" fill="#333" stroke="#555" stroke-width="1"/>
+    <text x="155" y="145" font-family="Arial" font-size="12" fill="#FFFFFF">shared_account</text>
+    
+    <text x="150" y="165" font-family="Arial" font-size="12" fill="#CCCCCC">Password:</text>
+    <rect x="150" y="170" width="100" height="20" rx="3" fill="#333" stroke="#555" stroke-width="1"/>
+    <text x="155" y="185" font-family="Arial" font-size="12" fill="#FFFFFF">••••••••</text>
+    
+    <rect x="170" y="200" width="60" height="20" rx="5" fill="#0072CE"/>
+    <text x="185" y="215" font-family="Arial" font-size="12" fill="#FFFFFF">Login</text>
+    
+    <!-- Multiple Users -->
+    <circle cx="100" cy="150" r="20" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="80" cy="180" r="20" fill="#2196F3" opacity="0.8"/>
+    <circle cx="110" cy="190" r="20" fill="#FF5722" opacity="0.8"/>
+    
+    <circle cx="300" cy="150" r="20" fill="#9C27B0" opacity="0.8"/>
+    <circle cx="320" cy="180" r="20" fill="#FF9800" opacity="0.8"/>
+    <circle cx="290" cy="190" r="20" fill="#607D8B" opacity="0.8"/>
+    
+    <!-- Arrow Lines -->
+    <line x1="120" y1="150" x2="140" y2="150" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="260" y1="150" x2="280" y2="150" stroke="#FFFFFF" stroke-width="2"/>
+</svg> 

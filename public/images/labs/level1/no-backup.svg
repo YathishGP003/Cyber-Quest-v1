@@ -1,0 +1,23 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Computer -->
+    <rect x="120" y="80" width="160" height="120" rx="5" fill="#555" stroke="#333" stroke-width="2"/>
+    <rect x="130" y="90" width="140" height="100" rx="2" fill="#0072CE"/>
+    
+    <!-- Screen Content -->
+    <rect x="140" y="100" width="120" height="15" rx="2" fill="#FFFFFF" opacity="0.8"/>
+    <text x="145" y="112" font-family="Arial" font-size="10" fill="#000">FINANCIAL RECORDS</text>
+    
+    <!-- Hard Drive Icon -->
+    <rect x="160" y="130" width="80" height="50" rx="5" fill="#333"/>
+    <circle cx="180" cy="145" r="10" fill="#666"/>
+    <rect x="200" y="135" width="30" height="5" rx="2" fill="#666"/>
+    <rect x="200" y="145" width="30" height="5" rx="2" fill="#666"/>
+    <rect x="200" y="155" width="30" height="5" rx="2" fill="#666"/>
+    
+    <!-- Warning Symbol -->
+    <circle cx="200" cy="200" r="30" fill="#FF3333" opacity="0.9"/>
+    <text x="190" y="208" font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF">!</text>
+    
+    <!-- No Backup Text -->
+    <text x="170" y="245" font-family="Arial" font-size="14" font-weight="bold" fill="#FF3333">NO BACKUP</text>
+</svg> 

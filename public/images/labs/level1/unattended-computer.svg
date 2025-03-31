@@ -1,0 +1,21 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Monitor -->
+    <rect x="100" y="50" width="200" height="140" rx="5" fill="#333" stroke="#555" stroke-width="2"/>
+    <rect x="110" y="60" width="180" height="120" rx="2" fill="#0072CE"/>
+    
+    <!-- Screen Content -->
+    <rect x="120" y="70" width="160" height="20" rx="2" fill="#FFFFFF" opacity="0.8"/>
+    <rect x="120" y="100" width="160" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+    <rect x="120" y="120" width="160" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+    <rect x="120" y="140" width="160" height="10" rx="2" fill="#FFFFFF" opacity="0.8"/>
+    <text x="125" y="85" font-family="Arial" font-size="12" fill="#000">CUSTOMER DATA</text>
+    
+    <!-- Monitor Stand -->
+    <rect x="180" y="190" width="40" height="10" rx="2" fill="#555"/>
+    <rect x="190" y="200" width="20" height="20" rx="2" fill="#555"/>
+    
+    <!-- Empty Chair -->
+    <rect x="165" y="230" width="70" height="10" rx="5" fill="#992222"/>
+    <rect x="175" y="240" width="50" height="30" rx="5" fill="#992222"/>
+    <rect x="165" y="270" width="70" height="5" rx="2" fill="#661111"/>
+</svg> 

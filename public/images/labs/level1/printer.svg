@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Printer Base -->
+  <rect x="15" y="30" width="70" height="40" rx="3" fill="#444" stroke="#333" stroke-width="2"/>
+  
+  <!-- Paper Tray (Top) -->
+  <rect x="25" y="10" width="50" height="20" rx="2" fill="#eee" stroke="#ccc" stroke-width="1"/>
+  <path d="M25,30 C25,22 75,22 75,30" fill="none" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Output Tray -->
+  <rect x="25" y="70" width="50" height="3" fill="#555"/>
+  <rect x="25" y="73" width="50" height="15" rx="2" fill="#eee" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Control Panel -->
+  <rect x="60" y="35" width="20" height="10" rx="2" fill="#666"/>
+  
+  <!-- Buttons -->
+  <circle cx="65" cy="40" r="2" fill="#0f0"/>
+  <circle cx="72" cy="40" r="2" fill="#f00"/>
+  <rect x="77" cy="40" width="2" height="2" fill="#fff"/>
+  
+  <!-- Display Screen -->
+  <rect x="25" y="35" width="30" height="10" rx="1" fill="#222" stroke="#111" stroke-width="1"/>
+  <rect x="27" y="37" width="26" height="6" fill="#0066aa"/>
+  
+  <!-- Network Cable -->
+  <path d="M15,60 L5,60 L5,80" fill="none" stroke="#888" stroke-width="2"/>
+  
+  <!-- Paper -->
+  <rect x="35" y="75" width="30" height="10" fill="#fff" stroke="#eee" stroke-width="0.5"/>
+</svg> 

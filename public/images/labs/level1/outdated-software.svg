@@ -1,0 +1,33 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Computer -->
+    <rect x="120" y="60" width="160" height="120" rx="5" fill="#555" stroke="#333" stroke-width="2"/>
+    <rect x="130" y="70" width="140" height="100" rx="2" fill="#333"/>
+    
+    <!-- Update Dialog -->
+    <rect x="150" y="90" width="100" height="80" rx="5" fill="#EEEEEE" stroke="#999" stroke-width="1"/>
+    <text x="160" y="110" font-family="Arial" font-size="10" font-weight="bold" fill="#333333">Software Update</text>
+    <line x1="150" y1="115" x2="250" y2="115" stroke="#CCCCCC" stroke-width="1"/>
+    
+    <text x="160" y="130" font-family="Arial" font-size="8" fill="#333333">This software is no longer</text>
+    <text x="160" y="140" font-family="Arial" font-size="8" fill="#333333">supported. Security updates</text>
+    <text x="160" y="150" font-family="Arial" font-size="8" fill="#333333">are not available.</text>
+    
+    <rect x="175" y="160" width="50" height="15" rx="3" fill="#CCCCCC"/>
+    <text x="185" y="171" font-family="Arial" font-size="9" fill="#333333">Ignore</text>
+    
+    <!-- Version Badge -->
+    <rect x="140" y="190" width="120" height="25" rx="5" fill="#DC3545"/>
+    <text x="150" y="208" font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF">v2.1 (OUTDATED)</text>
+    
+    <!-- Warning Symbols -->
+    <path d="M120 230 L130 250 L110 250 Z" fill="#FFC107"/>
+    <text x="119" y="246" font-family="Arial" font-size="12" font-weight="bold" fill="#333">!</text>
+    
+    <path d="M280 230 L290 250 L270 250 Z" fill="#FFC107"/>
+    <text x="279" y="246" font-family="Arial" font-size="12" font-weight="bold" fill="#333">!</text>
+    
+    <!-- Lock Icon - Broken -->
+    <rect x="185" y="230" width="30" height="25" rx="3" fill="#6C757D"/>
+    <rect x="195" y="220" width="10" height="15" rx="5" fill="#6C757D"/>
+    <line x1="190" y1="240" x2="210" y2="255" stroke="#DC3545" stroke-width="2"/>
+</svg> 

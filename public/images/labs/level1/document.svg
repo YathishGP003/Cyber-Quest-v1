@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Document Base -->
+  <rect x="20" y="10" width="60" height="80" rx="3" fill="#fff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Folded Corner -->
+  <path d="M80,10 L80,25 L65,10 Z" fill="#ddd" stroke="#666" stroke-width="1"/>
+  
+  <!-- Document Content Lines -->
+  <rect x="30" y="25" width="40" height="2" fill="#333"/>
+  <rect x="30" y="32" width="40" height="2" fill="#333"/>
+  <rect x="30" y="39" width="40" height="2" fill="#333"/>
+  <rect x="30" y="46" width="30" height="2" fill="#333"/>
+  
+  <!-- Confidential Stamp -->
+  <g transform="translate(30, 60) rotate(-20)">
+    <rect x="0" y="0" width="40" height="15" rx="2" fill="#ff000033" stroke="#ff0000" stroke-width="1"/>
+    <text x="4" y="11" font-family="Arial" font-size="9" font-weight="bold" fill="#ff0000">CONFIDENTIAL</text>
+  </g>
+</svg> 

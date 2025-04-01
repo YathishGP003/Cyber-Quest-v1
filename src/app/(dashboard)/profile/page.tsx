@@ -10,6 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { User, Shield, Trophy, Award, Clock, Terminal, BookOpen, Code, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 import { ActivityType } from "@/lib/types";
+import CertificateSection from "@/components/CertificateSection";
 
 // Get the activity type icon
 function getActivityTypeIcon(type: ActivityType) {
@@ -435,48 +436,11 @@ export default async function ProfilePage() {
               <CardDescription>Certifications you've earned by completing courses</CardDescription>
             </CardHeader>
             <CardContent>
-              {userData.certificates.length > 0 ? (
-                <div className="grid grid-cols-1 gap-4">
-                  {userData.certificates.map((certificate) => (
-                    <div key={certificate.id} className="bg-black/20 border border-green-500/20 rounded-lg p-4">
-                      <div className="flex justify-between items-start">
-                        <div>
-                          <h3 className="font-medium text-lg">{certificate.title}</h3>
-                          <p className="text-sm text-white/70 mt-1">{certificate.description}</p>
-                        </div>
-                        <Badge className="bg-green-600/80">Verified</Badge>
-                      </div>
-                      
-                      <div className="mt-4">
-                        <h4 className="text-sm font-medium mb-2">Skills</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {certificate.skills.map((skill, index) => (
-                            <Badge key={index} variant="outline" className="bg-black/30">
-                              {skill}
-                            </Badge>
-                          ))}
-                        </div>
-                      </div>
-                      
-                      <div className="flex justify-between items-center mt-4 text-sm text-white/70">
-                        <div className="flex items-center">
-                          <Clock className="mr-1 h-3 w-3" />
-                          Issued on {formatDate(certificate.issueDate)}
-                        </div>
-                        <div>
-                          Verification: {certificate.verificationCode.substring(0, 8)}...
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-8">
-                  <Award className="h-12 w-12 text-gray-500 mx-auto mb-3" />
-                  <p className="text-white/70">Complete levels to earn certificates!</p>
-                  <p className="text-sm text-white/50 mt-2">Certificates are awarded when you master specific cybersecurity domains.</p>
-                </div>
-              )}
+              <CertificateSection 
+                certificates={userData.certificates}
+                totalPoints={userData.totalPoints}
+                userName={`${userData.firstName || ''} ${userData.lastName || ''}`}
+              />
             </CardContent>
           </Card>
         </TabsContent>

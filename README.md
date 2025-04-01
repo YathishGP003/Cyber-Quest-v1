@@ -38,8 +38,7 @@ A gamified cybersecurity learning platform with 10 progressive difficulty levels
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cybersecurity-platform.git
-   cd cybersecurity-platform
+   git clone https://github.com/YathishGP003/Cyber-Quest-v1.git
    ```
 
 2. Install dependencies:

@@ -20,7 +20,7 @@ export function Navbar() {
             <Link href="/" className="flex items-center">
               <Shield className="h-8 w-8 text-green-500" />
               <span className="ml-2 text-xl font-bold text-white">
-                CyberQuest
+                CyberShield
               </span>
             </Link>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
